@@ -106,3 +106,5 @@ def home():
 
     return render_template("index.html", prediction=prediction)
 
+handler = app
+
